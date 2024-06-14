@@ -7,7 +7,7 @@ export abstract class BasePage {
   
     constructor(page: Page) {
       this.page = page;
-      this.baseUrl = config?.use?.baseURL ?? 'https://www.fisglobal.com';
+      this.baseUrl = config?.use?.baseURL ?? 'https://www.hazel.co';
       this.expectedCondition();
     }
   
