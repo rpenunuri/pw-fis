@@ -25,14 +25,14 @@ docker-compose up --build
 You can also provide specific url, browser, and group to run tests a command like this:
 
 ```
-BASE_URL=https://www.hazel.co BROWSER=chromium GROUP=@smoke docker-compose up --build
+BASE_URL=https://www.fisglobal.com BROWSER=chromium GROUP=@smoke docker-compose up --build
 ```
 
 ### Bash script
 
 To facilitate test execution on local environments, you can run tests using the `run-e2e-tests.sh` script in the `scripts` directory. This script accepts the following arguments:
 
-- `-u|--url`: The base URL used for all of the test cases. If not provided, `https://www.hazel.co` is used.
+- `-u|--url`: The base URL used for all of the test cases. If not provided, `https://www.fisglobal.com` is used.
 - `-b|--browser`: The browser to use for the tests. If not provided, all configured browsers from playwright.config.ts are used.
 - `-g|--group`: The group of tests to run. If not provided, all tests are run.
 
